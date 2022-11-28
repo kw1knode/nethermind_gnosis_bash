@@ -2,10 +2,10 @@
 sudo apt-get update && upgrade -y
 sudo apt-get install libsnappy-dev libc6-dev libc6 unzip -y
 cd ~
-curl -LO https://github.com/NethermindEth/nethermind/releases/download/1.14.1/nethermind-linux-amd64-1.14.1-1a32d45-20220907.zip
-unzip nethermind-linux-amd64-1.14.1-1a32d45-20220907.zip -d nethermind
+curl -LO https://github.com/NethermindEth/nethermind/releases/download/1.14.6/nethermind-linux-amd64-1.14.6-6aea772-20221121.zip
+unzip nethermind-linux-amd64-1.14.6-6aea772-20221121.zip -d nethermind
 sudo cp -a nethermind /usr/local/bin/nethermind
-sudo rm nethermind-linux-amd64-1.14.1-1a32d45-20220907.zip
+sudo rm nethermind-linux-amd64-1.14.6-6aea772-20221121.zip
 sudo rm -r nethermind
 sudo useradd --no-create-home --shell /bin/false nethermind
 sudo mkdir -p /var/lib/nethermind
