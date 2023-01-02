@@ -84,3 +84,4 @@ WantedBy=default.target" | sudo tee /etc/systemd/system/nethermind.service > /de
 sudo systemctl daemon-reload
 sudo systemctl start nethermind
 sudo systemctl enable nethermind
+sudo systemctl enable lodestarbeacon
