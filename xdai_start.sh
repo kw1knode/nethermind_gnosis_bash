@@ -48,7 +48,7 @@ ExecStart=/usr/local/bin/lodestar/lodestar beacon \
   --network gnosis \
   --dataDir /var/lib/lodestar/beacon \
   --execution.urls http://127.0.0.1:8551 \
-  --checkpointSyncUrl https://checkpoint.gnosischain.com \
+  --checkpointSyncUrl https://checkpoint.gnosis.gateway.fm/ \
   --jwt-secret /var/lib/jwtsecret/jwt.hex
 [Install]
 WantedBy=multi-user.target" | sudo tee -a /etc/systemd/system/lodestarbeacon.service > /dev/null
