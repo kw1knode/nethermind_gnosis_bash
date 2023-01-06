@@ -24,7 +24,7 @@ sudo apt-get install -y nodejs
 
 git clone https://github.com/chainsafe/lodestar.git
 cd lodestar
-git checkout v1.2.2
+git checkout v1.3.0
 yarn install --ignore-optional
 yarn run build
 cd ~
